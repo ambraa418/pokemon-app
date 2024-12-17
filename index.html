@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Info App</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\2839011\Desktop\pokemon app\pokeball.png">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokémon Info App</h1>
+
+        <!-- Ricerca Pokémon -->
+        <input type="text" id="pokemonInput" placeholder="Enter Pokémon name or ID" />
+        <button id="searchBtn">Search Pokémon</button>
+
+        <!-- Lista Pokémon Preferiti -->
+        <button id="listBtn">Show Favorites</button>
+<br>
+        <!-- Gioco: Guess the Pokémon -->
+        <button style=background-color:#ff4444 id="guessBtn">Play: Guess the Pokémon</button>
+    </div>
+
+        <!-- Comparazione Pokémon -->
+        <div class="compare-container">
+            <input type="text" id="pokemonInput1" placeholder="Enter first Pokémon" />
+            <input type="text" id="pokemonInput2" placeholder="Enter second Pokémon" />
+            <button id="compareBtn">Compare Pokémon</button>
+        </div>
+
+        <!-- Contenitore dei risultati -->
+        <div id="pokemonContainer"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
